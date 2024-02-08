@@ -5,9 +5,12 @@
   "dependencies": {
     "@extractus/article-extractor": "^8.0.5",
     "@hono/node-server": "^1.7.0",
-    "hono": "^3.12.8"
+    "hono": "^3.12.8",
+    "turndown": "^7.1.2",
+    "turndown-plugin-gfm": "^1.0.2"
   },
   "devDependencies": {
+    "@types/turndown": "^5.0.4",
     "tsx": "^3.12.2"
   }
 }
